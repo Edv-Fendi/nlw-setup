@@ -27,7 +27,7 @@ export function New() {
     async function handleCreateNewHabit() {
         try {
             if (!title.trim() || weekDays.length === 0) {
-                Alert.alert('Ops', 'Preencha todos os campos');
+             return Alert.alert('Ops', 'Preencha todos os campos');
             }
 
             await api.post("/habits", { title, weekDays });
