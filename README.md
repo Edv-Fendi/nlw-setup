@@ -74,7 +74,7 @@ PATCH /habits/{id}/toggle
 
 ### Clonar o projeto
 ```
-git clone git@github.com:bernardobfg/NLW-Setup.git
+git clone [https://github.com/Edv-Fendi/nlw-setup.git]
 ```
 
 #### Back-end
